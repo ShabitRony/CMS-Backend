@@ -30,7 +30,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-// Register repositories and services through Dependency Injection
+// Register repositories and services through Dependency Injection k
 DependencyInversion.RegisterServices(builder.Services);
 
 // Configure CORS to allow all origins, headers, and methods
